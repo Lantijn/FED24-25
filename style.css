@@ -1,30 +1,41 @@
 :root {
-    /* --color-black: #000; */
+    --achtergrond: #0f0f0f;
+    --buttonhover: #303030;
+    --buttonhover2: #8b8b8b;
 }
+
 body {
-    background-color: #0f0f0f;
+    background-color: var(--achtergrond);
     margin: 0;
     box-sizing: border-box;
-    /* width: 100vw; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* HEADER */
 header{
-    background-color: #0f0f0f;
+    background-color: var(--achtergrond);
     margin-bottom: 1.5em;
     padding-top: 1em;
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 4;
+}
+
+.videoheader {
+    padding-bottom: 1em;
 }
 
 header div button:hover {
-background-color: #303030;
+background-color: var(--buttonhover);
+}
+
+header div ul {
+    justify-self: end;
+
 }
 
 header div ul li button:hover {
-    background-color: #303030;
+    background-color: var(--buttonhover);
     }
     
 
@@ -36,6 +47,7 @@ header div:nth-of-type(1){
 aside {
     display: flex;
     align-items: center;
+    z-index: 10;
 }
 
 header img:nth-of-type(1) {
@@ -49,7 +61,7 @@ aside button {
     align-items: center;
     justify-content: center;
     padding: 0;
-    background-color: #0f0f0f;
+    background-color: var(--achtergrond);
     border: none;
     border-radius: 50%;
     margin-right: 1em;
@@ -73,7 +85,7 @@ form button:nth-of-type(1) {
     justify-content: center;
     padding: 0;
     background-color: #222222;
-    border: solid 0.5px #303030;
+    border: solid 0.5px var(--buttonhover);
     border-radius: 50%;
     border-radius: 0 5em 5em 0 ;
 }
@@ -85,7 +97,7 @@ form button:nth-of-type(2){
     align-items: center;
     justify-content: center;
     padding: 0;
-    background-color: #0f0f0f;
+    background-color: var(--achtergrond);
     border: none;
     border-radius: 50%;
     margin-right: 1em;
@@ -103,8 +115,8 @@ form button:nth-of-type(2) img{
 form input {
     border-radius: 5em 0 0 5em;
     padding: 1em;
-    background-color: #0f0f0f;
-    border: solid 0.5px #303030;
+    background-color: var(--achtergrond);
+    border: solid 0.5px var(--buttonhover);
     color: white;
     flex-grow: 1;
     height: 0.35em;
@@ -113,8 +125,9 @@ form input {
 header ul:nth-of-type(1) {
     display: flex;
     list-style: none;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
+    margin-left: 2vw;
 }
 
 header div ul {
@@ -128,7 +141,7 @@ header div ul:nth-of-type(1) button {
     align-items: center;
     justify-content: center;
     padding: 0;
-    background-color: #0f0f0f;
+    background-color: var(--achtergrond);
     border: none;
     border-radius: 50%;
     margin-right: 2em;
@@ -139,15 +152,15 @@ header ul:nth-of-type(1) button img{
     margin: 0.4em;
 }
 
-
+header > ul li:nth-of-type(1) {
+opacity: 0; 
+}
 
 /* categorie buttons */
 header > ul{
     overflow-x: auto;
     padding-left: 0;
     justify-content: flex-start;
-
-
 }
 
 header > ul::-webkit-scrollbar {
@@ -156,7 +169,7 @@ header > ul::-webkit-scrollbar {
 
 header > ul button{
     color: white;
-    background-color: #303030;
+    background-color: var(--buttonhover);
     border: none;
     border-radius: 0.5em;
     padding: 0.7em;
@@ -165,7 +178,7 @@ header > ul button{
 }
 
 header > ul button:hover{
-    background-color: #8b8b8b;
+    background-color: var(--buttonhover2);
 }
 
 nav ul{
@@ -174,6 +187,7 @@ nav ul{
     list-style: none;
     position: fixed;
     margin: 0;
+    /* padding-right: 3em; */
 }
 
 nav ul li {
@@ -198,7 +212,6 @@ nav ul li a img {
 }
 
 
-
 /* MAIN */
 .homemain {
     display: grid;
@@ -207,7 +220,7 @@ nav ul li a img {
 }
 
 .videomain section:nth-of-type(1){
-    overflow:hidden;
+    /* overflow:hidden; */
     justify-content: center;
 }
 
@@ -217,8 +230,8 @@ img {
 
 .homesection{
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(22em, 1fr));
-    margin-left: 2em;
+    grid-template-columns:repeat(auto-fit, minmax(18em, 1fr));
+    margin-left: 4em;
     margin-right: 2em;
     gap: 1em;
 }
@@ -251,7 +264,7 @@ article p {
 }
 
 video {
-    width: 80vw;
+    width: 60vw;
     margin:0; 
 }
 
@@ -299,23 +312,33 @@ h1 {
     padding-top: 5em;
 }
 
+.videomain section:nth-of-type(2) {
+    margin-right: 2vw;
+}
+
 .videomain section:nth-of-type(2) article:nth-of-type(1){
-    margin-left: 8vw;
+    /* margin-left: 8vw; */
     padding: 1em;
     padding-left: 2.5vw;
 }
 
 .videomain section:nth-of-type(2) article:nth-of-type(2){
-    background-color: #303030;
+    background-color: var(--buttonhover);
     border-radius: 1em;
     padding: 1em;
-    margin-left: 10vw;
-    padding-right: 15vw;
+    margin-left: 2vw;
     color: white;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 .videomain section:nth-of-type(2) article:nth-of-type(1) img{
 width: 3em;
+}
+
+.lijntje {
+    background-color: var(--buttonhover);
+    height: 0.1em;
+    margin-bottom: 1em;
+    margin-left: 2vw;
 }
 
 
@@ -326,8 +349,77 @@ h2 {
     font-size: 1em;
 }
 
+.knoppenflex {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    gap: 1em;
+    /* flex-wrap: wrap; */
+    /* margin-right: auto; */
+}
+
+.knoppenflex button {
+    height: 100%;
+    border: none;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.knoppenflex button img {
+    /* margin: 1em; */
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.knoppenflex #abonneerknop {
+    font-size: 0.9em;
+    border-radius: 5em;
+    font-weight: bold;
+    background-color: white;
+    padding: 1em;
+    width: max-content;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.geabonneerd {
+    background-color: rgb(250, 0, 0);
+}
+
+.knoppenflex .likeknop {
+    /* margin-left: 5em; */
+    background-color: var(--buttonhover);
+    border-radius: 5em 0 0 5em;
+}
+
+.knoppenflex .dislikeknop {
+    background-color: var(--buttonhover);
+    border-radius: 0 5em 5em 0;
+}
+
+.knoppenflex .shareknop {
+    background-color: var(--buttonhover);
+    border-radius: 5em;
+}
+
+.knoppenflex .moreknop {
+    background-color: var(--buttonhover);
+    border-radius: 5em;
+} 
+
+.abonneerknop {
+    justify-self: end;
+}
+
 .aboneeflex {
     display: flex;
+}
+
+.aboneeflex a {
+    width: 100%;
+    height: 100%;
 }
 
 .aboneecolumn {
@@ -335,11 +427,13 @@ h2 {
     flex-direction: column;
     margin-left: 1em;
     font-weight: bold;
+    width: 100%;
 }
 
 .aboneecolumn p {
     margin-top: 0.1em;
     color: #959595;
+    width: max-content;
 }
 
 .videomain section:nth-of-type(2) article:nth-of-type(2) p:nth-last-child(1){
@@ -348,7 +442,7 @@ h2 {
 
 .videomain {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(50em, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(39.4em, 1fr));
 }
 
 
@@ -358,18 +452,19 @@ h2 {
 }
 
 .suggestie {
-    margin-top: 1.5em;
-    margin-left: 3em;
+    margin-top: 0.5em;
+    /* margin-left: 3em; */
     font-size: 1.4em;
 }
 
 .suggestie a {
     color: white;
+    font-size: 0.5em;
 }
 
 .suggestie img {
-    width: 15em;
-    border-radius: 0.7em;
+    width: 14em;
+    border-radius: 0.4em;
     margin-right: 1em;
     margin-bottom: 0;
 }
@@ -384,17 +479,183 @@ h2 {
 
 .suggestie p {
     margin:0;
+    font-size: 0.5em;
 }
 
 .suggestieflex {
     display: flex;
-    align-items: center;
 }
 
 .suggestiecolumn {
     display: flex;
     flex-direction: column;
 }
+
+.suggestie a {
+    font-weight: bold;
+}
+
+.suggestie a:nth-of-type(2){
+    margin-top: 0.5em;
+    color: var(--buttonhover2);
+}
+
+.suggestie p {
+    color: var(--buttonhover2);
+    font-weight: bold;
+}
+
+.groot_logo {
+    display: block;
+}
+
+.klein_logo {
+    display: none;
+    width: 2.5em;
+}
+
+.morehidden {
+    display: none;
+}
+
+.hamburgeruit {
+    background-color: var(--achtergrond);
+    width: 15%;
+    top:4.5em;
+    position: fixed;
+    z-index: 5;
+    display: none;
+    font-size: 0.8em;
+}
+
+.hamburgeruit.open {
+    display: block;
+}
+
+.hamburgeruit li a{
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.hamburgeruit a {
+    color: white;
+    text-decoration: none;
+    padding: 7%;
+    border-radius: 0.7em;
+    
+}
+
+.hamburgeruit a:hover {
+    background-color: var(--buttonhover2);
+}
+
+.hamburgeruit img {
+    margin-right: 5%;
+}
+
+.hamburgeruit ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5%;
+    
+}
+
+
+.hamburgeruit img {
+width: 15%;
+}
+
+
+/* Youtube tutorial over mediaquerries gekeken https://www.youtube.com/watch?v=yU7jJ3NbPdA&ab_channel=WebDevSimplified */
+
+@media (max-width:750px) {
+video {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    background-color: var(--achtergrond);
+}
+
+.groot_logo {
+    display: none;
+}
+
+.klein_logo {
+    display: block;
+    margin-left: 0.8em;
+}
+
+aside button {
+    display: none;
+}
+
+header div ul li {
+    display: none;
+}
+
+.morehidden {
+    display: block;
+    transform: rotate(90deg);
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    background-color: var(--achtergrond);
+    border: none;
+    border-radius: 50%;
+    margin-right: 1em;
+    
+}
+
+.homesection {
+    margin-left: 1em;
+}
+
+nav li:nth-of-type(3) {
+display: none;
+}
+
+header div > button {
+    justify-self: end;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    padding-top: 1em;
+}
+
+.videomain section:nth-of-type(1) {
+    text-align: left;
+}
+
+.hamburgeruit {
+    display: none;
+}
+
+}
+
+
+@media (max-width:1119px) {
+    .suggestie {
+        padding-left: 1em;
+    }
+}
+
+
 /* * {
     border: solid red 1px;
 } */
@@ -404,8 +665,7 @@ h2 {
 
 
 
-
-
-
 /* flex basis op input*/
 /* iconen svg + viewwidth */
+
+

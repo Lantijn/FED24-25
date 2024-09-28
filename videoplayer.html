@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="videoheader">
         <div>
         <aside>
-            <button><img src="images/SVG/hamburger.svg" alt="hamburger menu openklappen"></button>
-        <a href="index.html"><img src="images/iconen/youtube_logo.png" alt="Youtube Icoon (herlaad website)"></a>
+            <button class="hamburgerknop"><img src="images/SVG/hamburger.svg" alt="hamburger menu openklappen"></button>
+        <a href="index.html"><img class="groot_logo" src="images/svg/youtube_logo.png" alt="Youtube Icoon (herlaad website)"><img class="klein_logo" src="images/SVG/youtube_logo_klein.png" alt="klein youtube logo"></a>
      </aside>
                         
         <form>
@@ -19,13 +19,28 @@
             <button id="zoekknop"><img src="images/SVG/zoeken.svg" alt="zoekopdracht uitvoeren knop"></button>
             <button><img src="images/SVG/dictafoon.svg" alt="gesproken zoekopdracht knop"></button>
         </form>
+        <button class="morehidden"><img src="images/SVG/3_puntjes.svg" alt="meer knoppen"></button>
         <ul>
             <li><button><img src="images/SVG/maken.svg" alt="videouploaden knop"></button></li>
             <li><button><img src="images/SVG/notificatie.svg" alt="meldingen knop"></button></li>
             <li><button><img src="images/SVG/profiel.svg" alt="profiel knop"></button></li>
         </ul>
     </div>
-    </header>
+</header>
+    <div class="hamburgeruit">
+        <ul>
+            <li><a href="#"><img src="images/SVG/home.svg" alt="homepage">Home</a></li>
+            <li><a href="#"><img src="images/SVG/shorts.svg" alt="shorts">Shorts</a></li>
+            <li><a href="#"><img src="images/SVG/abonneren.svg" alt="Abonnomenten">Abonnomenten</a></li>
+            <li><a href="#"><img src="images/SVG/profiel.svg" alt="je kanaal">Je kanaal</a></li>
+            <li><a href="#"><img src="images/SVG/geschiedenis.svg" alt="geschiedenis">Geschiedenis</a></li>
+            <li><a href="#"><img src="images/SVG/opslaan.svg" alt="playlists">Playlist</a></li>
+            <li><a href="#"><img src="images/SVG/jij.svg" alt="Je videos">Je video's</a></li>
+            <li><a href="#"><img src="images/SVG/later.svg" alt="Later bekijken">Later bekijken</a></li>
+            <li><a href="#"><img src="images/SVG/like.svg" alt="gelikte videos">Gelikte video's</a></li>
+       </ul>
+    </div>
+
     <main class="videomain">
         <section>
             <video controls src="images/video/Madagascar (2005) - I Like to Move It Move It Scene (5_10) _ Movieclips.mp4"></video>
@@ -33,10 +48,18 @@
         <section>
             <article>
                 <h1>Madagascar (2005) - I Like to Move It Move It Scene (5/10) | Movieclips</h1>
-                <div class="aboneeflex"><a href="#"><img src="images/iconen/profiel.png" alt="account icoon"></a>
+                <div class="knoppenflex">
+                <div class="aboneeflex"><a href="#"><img src="images/svg/profiel.svg" alt="account icoon"></a>
                 <div class="aboneecolumn"><a href="#">Movieclips</a>
                 <p>62.1 mln. abbonees</p></div></div>
+                    <button id="abonneerknop" class="abonneer">Abonneren</button>
+                    <button class="likeknop"><img src="images/SVG/like.svg" alt="likeknop"></button>
+                    <button class="dislikeknop"><img src="images/SVG/dislike.svg" alt="dislikeknop"></button>
+                    <button class="shareknop"><img src="images/SVG/delen.svg" alt="deelknop"></button>
+                    <button class="moreknop"><img src="images/SVG/3_puntjes.svg" alt="meer opties knop"></button>
+                </div>
              </article>
+             <div class="lijntje"></div>
              <article>
                 <h2>23 mln. weergaven 5 jaar geleden</h2>
                 <p>Madagascar - I Like to Move It Move It: King Julian (Sacha Baron Cohen) leads his people in dance. BUY THE MOVIE: <a href="https://www.fandangonow.com/details/">https://www.fandangonow.com/details/</a></p>
@@ -70,7 +93,47 @@
             </div>
         </div>    
             </article>
-            <article class="suggestie"></article>
+            <article class="suggestie">
+                <div class="suggestieflex">
+            <a href="videoplayer.html"><img src="images/thumbnails/bram_in_de_buurt.jpg" alt="video thumbnail"></a>
+            <div class="suggestiecolunm">
+            <a href="#">"Ik vond je vroeger leuker" - <br> Bram in de buurt | SLAM!</a>
+                <a href="#">SLAM! | Series</a>
+                <p>1 Mln. weergaven - 6 jaar geleden</p>
+            </div>
+        </div>    
+            </article>
+            <article class="suggestie">
+                <div class="suggestieflex">
+            <a href="videoplayer.html"><img src="images/thumbnails/bram_in_de_buurt.jpg" alt="video thumbnail"></a>
+            <div class="suggestiecolunm">
+            <a href="#">"Ik vond je vroeger leuker" - <br> Bram in de buurt | SLAM!</a>
+                <a href="#">SLAM! | Series</a>
+                <p>1 Mln. weergaven - 6 jaar geleden</p>
+            </div>
+        </div>    
+            </article>
+            <article class="suggestie">
+                <div class="suggestieflex">
+            <a href="videoplayer.html"><img src="images/thumbnails/bram_in_de_buurt.jpg" alt="video thumbnail"></a>
+            <div class="suggestiecolunm">
+            <a href="#">"Ik vond je vroeger leuker" - <br> Bram in de buurt | SLAM!</a>
+                <a href="#">SLAM! | Series</a>
+                <p>1 Mln. weergaven - 6 jaar geleden</p>
+            </div>
+        </div>    
+            </article>
+            <article class="suggestie">
+                <div class="suggestieflex">
+            <a href="videoplayer.html"><img src="images/thumbnails/bram_in_de_buurt.jpg" alt="video thumbnail"></a>
+            <div class="suggestiecolunm">
+            <a href="#">"Ik vond je vroeger leuker" - <br> Bram in de buurt | SLAM!</a>
+                <a href="#">SLAM! | Series</a>
+                <p>1 Mln. weergaven - 6 jaar geleden</p>
+            </div>
+        </div>    
+            </article>
+            <article class="suggestie">
                 <div class="suggestieflex">
             <a href="videoplayer.html"><img src="images/thumbnails/bram_in_de_buurt.jpg" alt="video thumbnail"></a>
             <div class="suggestiecolunm">
@@ -82,5 +145,6 @@
             </article>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
