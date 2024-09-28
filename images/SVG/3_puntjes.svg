@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-_3_puntjes">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="_3_puntjes" data-name="3_puntjes" clip-path="url(#clip-_3_puntjes)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="75" cy="75" r="75" transform="translate(181 181)" fill="#fff"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="75" cy="75" r="75" transform="translate(0 181)" fill="#fff"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="75" cy="75" r="75" transform="translate(362 181)" fill="#fff"/>
+  </g>
+</svg>
