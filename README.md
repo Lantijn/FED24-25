@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lantijn Bergman
 
   #### Je startniveau:
-  Rood
+  Blauw / Rood
 
   #### Je focus:
   Responsive
@@ -33,10 +33,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Youtube.com</summary>
 
   ### Je opdracht:
-  Youtube.com
+  Ik ga Youtube namaken met HTML, CSS en JavaScript. Het is de bedoeling dat mijn site nagenoeg identiek is aan het orgineel. Mijn focus ligt op het responsive maken van de website, zodat de site op verschillende devices te gebruiken is. 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
