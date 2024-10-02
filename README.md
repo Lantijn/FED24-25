@@ -40,10 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Youtube homepage
+  
   <img src="readme-images/Youtube_front_mobiel_def.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Youtube videoplayer
+  
   <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
