@@ -155,7 +155,7 @@ Toegankelijkheidstest pagina 1
   <img src="readme-images/Toegankelijkheidstest_5.jpg" width="375px" alt="Toegankelijkheidstest pagina 5">
 
   ### Bevindingen
-  Aangezien Youtube al toegankelijk is heb ik niet perse verbeteringen hieraan gebracht. Wel heb ik het zo goed mogelijk nagemaakt. Mijn HTML is semantisch en ik heb headings gebruikt waar dat nodig is. Ik op de homepage ook een h1 gebruikt maar onzichtbaar gemaakt, zodat het voor een screenreader wel werkt maar niet afleid voor gebruikers die wel kunnen zien. Ik heb doormiddel van de juiste attributen de toegankelijkheid verbeterd. Ik heb gebruik gemaakt van section, article, headings, form, aside, a en ul's om het zo semantisch mogelijk te houden en heb alleen voor de vormgeving af en toe een div gebruikt, ik heb ook zo min mogelijk class gebruikt.
+  Aangezien Youtube al toegankelijk is heb ik niet perse verbeteringen hieraan gebrachtop aan de toegankelijkheid, de code kon wel semantischer geschreven worden dus dat heb ik gedaan. Mijn HTML is semantisch en ik heb headings gebruikt waar dat nodig is. Ik op de homepage ook een h1 gebruikt maar onzichtbaar gemaakt, zodat het voor een screenreader wel werkt maar niet afleid voor gebruikers die wel kunnen zien. Ik heb doormiddel van de juiste attributen de toegankelijkheid verbeterd. Ik heb gebruik gemaakt van section, article, headings, form, aside, a en ul's om het zo semantisch mogelijk te houden en heb alleen voor de vormgeving af en toe een div gebruikt, ik heb ook zo min mogelijk class gebruikt.
 
 </details>
 
@@ -169,26 +169,17 @@ Toegankelijkheidstest pagina 1
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  De website oogt indentiek aan de orginele Youtube, dus dat gaat erg goed. Ik heb nog een paar dingen die ik moet fixen, zoals een werkend hamburger menu, hoe ik de nav onderaan krijg met mediaquerry en wat responsive dingetjes zoals dat de iconen en de video goed meeschalen.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - nav flex-direction row geven, position fixed en bottom 0, bij een bepaalde max-width. Zo gaat de nav onderaan staan op mobiel formaat
+  - Hamburger menu werkt met JavaScript, ik zet het menu normaal op display none en met JavaScript als je erop klikt veranderd het naar display block
+  - Geef de video width 100% met een mediaquerry 
+  - Gebruik justify-content: space around om bepaalde elementen netjes te centreren en goed responsive te maken, zoals de nav en de header.
+  - Met mediaquerry kan je veel dingen doen, ik heb bijvoorbeeld een mobiel formaat gemaakt door alle mobiele elementen op display: none te zetten en vanaf een bepaalde width zet ik ze op display block en dan zet ik de desktop elementen op display none
+  - 
 
 </details>
 
@@ -202,7 +193,15 @@ Toegankelijkheidstest pagina 1
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Homepage desktop formaat
+  <img src="readme-images/Youtube_front_desktop_def.png" width="375px" alt="Homepage desktopformaat">
+  Videoplayer desktop formaat
+  <img src="readme-images/Youtube_player_desktop_def.png" width="375px" alt="Videoplayer desktopformaat">
+
+  Homepage mobiel formaat
+  <img src="readme-images/Youtube_front_mobiel_def.png" width="375px" alt="Homepage mobiel formaat">  
+  Videoplayer mobiel formaat
+  <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="Videoplayer mobiel formaat">
 
 
   ### Dit ging goed/Heb ik geleerd: 
