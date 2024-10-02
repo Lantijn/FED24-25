@@ -133,18 +133,29 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+
+Toegankelijkheidstest pagina 1
+  
   <img src="readme-images/Toegankelijkheidstest_1.jpg" width="375px" alt="Toegankelijkheidstest pagina 1">
+
+  Toegankelijkheidstest pagina 2
 
   <img src="readme-images/Toegankelijkheidstest_2.jpg" width="375px" alt="Toegankelijkheidstest pagina 2">
 
+  Toegankelijkheidstest pagina 3
+
   <img src="readme-images/Toegankelijkheidstest_3.jpg" width="375px" alt="Toegankelijkheidstest pagina 3">
 
+  Toegankelijkheidstest pagina 4
+
   <img src="readme-images/Toegankelijkheidstest_4.jpg" width="375px" alt="Toegankelijkheidstest pagina 4">
+
+  Toegankelijkheidstest pagina 5
 
   <img src="readme-images/Toegankelijkheidstest_5.jpg" width="375px" alt="Toegankelijkheidstest pagina 5">
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Aangezien Youtube al toegankelijk is heb ik niet perse verbeteringen hieraan gebracht. Wel heb ik het zo goed mogelijk nagemaakt. Mijn HTML is semantisch en ik heb headings gebruikt waar dat nodig is. Ik op de homepage ook een h1 gebruikt maar onzichtbaar gemaakt, zodat het voor een screenreader wel werkt maar niet afleid voor gebruikers die wel kunnen zien. Ik heb doormiddel van de juiste attributen de toegankelijkheid verbeterd. Ik heb gebruik gemaakt van section, article, headings, form, aside, a en ul's om het zo semantisch mogelijk te houden en heb alleen voor de vormgeving af en toe een div gebruikt, ik heb ook zo min mogelijk class gebruikt.
 
 </details>
 
