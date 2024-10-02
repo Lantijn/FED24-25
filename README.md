@@ -133,6 +133,15 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <img src="readme-images/Toegankelijkheidstest_1.jpg" width="375px" alt="Toegankelijkheidstest pagina 1">
+
+  <img src="readme-images/Toegankelijkheidstest_2.jpg" width="375px" alt="Toegankelijkheidstest pagina 2">
+
+  <img src="readme-images/Toegankelijkheidstest_3.jpg" width="375px" alt="Toegankelijkheidstest pagina 3">
+
+  <img src="readme-images/Toegankelijkheidstest_4.jpg" width="375px" alt="Toegankelijkheidstest pagina 4">
+
+  <img src="readme-images/Toegankelijkheidstest_5.jpg" width="375px" alt="Toegankelijkheidstest pagina 5">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
