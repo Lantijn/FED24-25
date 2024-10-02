@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-Youtube is over erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven.
+Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven.
 </details>
 
 
@@ -91,24 +91,13 @@ Youtube is over erg toegankelijk voor gebruikers met een handicap. Ik heb niet h
   ### Stand van zaken
  Het lukte me goed om de basis HTML te verwerken en heb al en goed idee over hoe ik het wil gaan stylen met CSS. Ik weet alleen nog niet precies hoe ik een grid gebruik om mijn video's te laten zien. Ook heb ik geen idee over hoe ik de header mooi ga krijgen. Ik heb ook alle icoontjes in illustrator gemaakt.
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Ik ga de grid opdracht maken daarmee kan ik leren hoe ik mijn videomain kan maken
   - Gebruik SVG inplaats van PNG voor de iconen
-  - Gebruik een <aside> en een <form> voor de header
-  - Maak veel meer gebruik van <li> voor dingen die eigenlijk in een lijst staan
+  - Gebruik een aside en een form voor de header inplaats van een div
+  - Maak veel meer gebruik van li voor dingen die eigenlijk in een lijst staan
 
 </details>
 
@@ -122,26 +111,17 @@ Youtube is over erg toegankelijk voor gebruikers met een handicap. Ik heb niet h
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+ Het gaat goed met de website. De HTML is voor het grootste deel af en ik ben lekker bezig met de CSS. Dingen als grid en flexbox heb ik begrepen om daarmee de website vorm te geven. Sommige dingen lukken nog niet maar daar maak ik een lijstje met vragen voor in de les.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Het is gelukt om de nav in de main te zetten en in dezelfde grid als de video's zo neemt het altijd dezelfde ruimte in en blijft het responsive als je de site kleiner maakt.
+  - Header moet op position: fixed om bovenaan te blijven tijdens het scrollen
+  - Overflow-X gebruiken om categoriën horizontaal te laten scrollen
+  - Ik moet mediaquery gebruiken voor mobiel formaat
+  - Custom properties gebruiken voor de kleuren 
 
 </details>
 
