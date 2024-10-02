@@ -56,8 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
+Youtube is over erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven.
 </details>
 
 
@@ -68,7 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/HTML_ontleding.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
