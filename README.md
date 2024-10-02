@@ -196,6 +196,7 @@ Toegankelijkheidstest pagina 1
   Homepage desktop formaat
   
   <img src="readme-images/Youtube_front_desktop_def.png" width="375px" alt="Homepage desktopformaat">
+  
   Videoplayer desktop formaat
   
   <img src="readme-images/Youtube_player_dekstop_def.png" width="375px" alt="Videoplayer desktopformaat">
@@ -203,6 +204,7 @@ Toegankelijkheidstest pagina 1
   Homepage mobiel formaat
   
   <img src="readme-images/Youtube_front_mobiel_def.png" width="375px" alt="Homepage mobiel formaat">  
+  
   Videoplayer mobiel formaat
   
   <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="Videoplayer mobiel formaat">
