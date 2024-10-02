@@ -88,7 +88,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Het lukte me goed om de basis HTML te verwerken en heb al en goed idee over hoe ik het wil gaan stylen met CSS. Ik weet alleen nog niet precies hoe ik een grid gebruik om mijn video's te laten zien. Ook heb ik geen idee over hoe ik de header mooi ga krijgen. Ik heb ook alle icoontjes in illustrator gemaakt.
 
 
   ### Agenda voor meeting
@@ -104,10 +104,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik ga de grid opdracht maken daarmee kan ik leren hoe ik mijn videomain kan maken
+  - Gebruik SVG inplaats van PNG voor de iconen
+  - Gebruik een <aside> en een <form> voor de header
+  - Maak veel meer gebruik van <li> voor dingen die eigenlijk in een lijst staan
 
 </details>
 
