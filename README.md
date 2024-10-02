@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik ga Youtube namaken met HTML, CSS en JavaScript. Het is de bedoeling dat mijn site nagenoeg identiek is aan het orgineel. Mijn focus ligt op het responsive maken van de website, zodat de site op verschillende devices te gebruiken is. 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Youtube homepage
   <img src="readme-images/Youtube_front_mobiel_def.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/Youtube_video_mobiel_def" width="375px" alt="omschrijving van de pagina">
+  Youtube videoplayer
+  <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
