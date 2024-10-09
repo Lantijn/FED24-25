@@ -72,10 +72,7 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
   <img src="readme-images/HTML_ontleding.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/hamburger_gif.gif" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -275,7 +272,7 @@ Ik vond het vooral lastig om de fouten in mijn eigen code te zien. Soms wou ik i
   Nb. Vermeld de bronnen ook in je code.
 
   1. Youtube tutorial over mediaquerries gekeken https://www.youtube.com/watch?v=yU7jJ3NbPdA&ab_channel=WebDevSimplified
-  2. Voorderest heb ik alles uit de les
-  3. ...
+  2. Ik heb soms ChatGPT gebruikt om problemen in mijn code op te sporen als ik die niet zelf kon vinden.
+ 
 
 </details>
