@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven. Ik heb foto's van mijn toegankelijksheidstestformulier bij Toegankelijkheidstest 2/2 (week 4) geplaatst.
+Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven. Maar over het algemeen zijn er niet echt verbeteringen om te maken que toegankelijkheid maar zal ik het gewoon goed namaken. Ik heb foto's van mijn toegankelijksheidstestformulier bij Toegankelijkheidstest 2/2 (week 4) geplaatst.
 </details>
 
 
