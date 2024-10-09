@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven.
+Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel veel ervaring met een screenreader maar naar mijn mening is youtube er prima mee te gebruiken. Er zijn nog een paar HTML elementen die verbeterd kunnen worden zoals lists gebruiken voor een aantal elementen en headings geven. Ik heb foto's van mijn toegankelijksheidstestformulier bij Toegankelijkheidstest 2/2 (week 4) geplaatst.
 </details>
 
 
@@ -98,6 +98,12 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
   - Gebruik SVG inplaats van PNG voor de iconen
   - Gebruik een aside en een form voor de header inplaats van een div
   - Maak veel meer gebruik van li voor dingen die eigenlijk in een lijst staan
+
+    Hier kan je zien hoe ik gebruik heb gemaakt van een grid om de homepage te stijlen
+    <img src="readme-images/videomain_grid.png" width="375px" alt="foto van grid">
+
+    Dit is hoe de header eruit ziet en ik hier gebruik gemaakt van een aside, form en een ul
+    <img src="readme-images/youtube_banner.png" width="375px" alt="foto van header">
 
 </details>
 
