@@ -206,6 +206,7 @@ Toegankelijkheidstest pagina 1
   <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="Videoplayer mobiel formaat">
 
   Hier laat ik zien hoe mijn hamburger menu werkt:
+  
  <img src="readme-images/mijnhamburger_gif.gif" width="375px" alt="Videoplayer mobiel formaat"> 
 
   
