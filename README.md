@@ -244,7 +244,13 @@ Toegankelijkheidstest pagina 1
 
   Ik heb goed geleerd om een website responsive te maken. Dit heb ik gedaan doormiddel van display:grid, display: flex en mediaquerry. Voor dit vak zou ik alles vormgeven met margin, paddings en width, maar dat werkt maar voor één beeldschermformaat. Ik vind het leuk om dit geleerd te hebben want ik had altijd heel veel moeite met een website responsive krijgen, daarom heb ik ook voor deze challenge gekozen.
 
+   Gifje van hoe mijn website responsive is:
+   
    <img src="readme-images/youtube_gif.gif" width="375px" alt="GIFje van responsive Youtube">
+
+
+  Hier laat ik zien hoe mijn flexboxen werken:
+  
    <img src="readme-images/Flex_ontleding.png" width="375px" alt="ontleding van hoe ik flexboxes gebruik">
    
 
