@@ -205,8 +205,10 @@ Toegankelijkheidstest pagina 1
 
 
   Hier kan je zien hoe alle sections onder elkaar schuiven als de pagina op mobiel formaat staat, d.m.v mediaquerry
+  
+  <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="Videoplayer mobiel formaat">
 
-    <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="Videoplayer mobiel formaat">
+  
 
 </details>
 
