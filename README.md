@@ -258,7 +258,7 @@ Toegankelijkheidstest pagina 1
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+Ik vond het vooral lastig om de fouten in mijn eigen code te zien. Soms wou ik iets op een bepaalde manier vormgeven maar dan wist ik niet welke code ik daarvoor nodig had, bijvoorbeeld justify-content:space-around, inplaats van dat ik margin gebruik voor ruimte tussen elementen. Hierbij heeft feedback van de docent en studentenassistenen heel goed geholpen en heb door ook goed gebruik van gemaakt. Ik heb hier helaas geen foto''s van. Er is niet iets wat niet gelukt is.
 </details>
 
 
