@@ -102,7 +102,7 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
     Hier kan je zien hoe ik gebruik maak van containers en display:flex om mijn pagina te stijlen. Om dingen naast elkaar te zetten staat de flex-direction op row en om dingen onder elkaar te zetten gebruik flex-direction: column
 
     
-<img src="readme-imagesFlex_ontleding.png" width="375px" alt="ontleding van hoe ik flexboxes gebruik">
+<img src="readme-images/Flex_ontleding.png" width="375px" alt="ontleding van hoe ik flexboxes gebruik">
 
 
 </details>
