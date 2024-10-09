@@ -172,7 +172,7 @@ Toegankelijkheidstest pagina 1
   <img src="readme-images/Toegankelijkheidstest_5.jpg" width="375px" alt="Toegankelijkheidstest pagina 5">
 
   ### Bevindingen
-  Aangezien Youtube al toegankelijk is heb ik niet perse verbeteringen hieraan gebrachtop aan de toegankelijkheid, de code kon wel semantischer geschreven worden dus dat heb ik gedaan. Mijn HTML is semantisch en ik heb headings gebruikt waar dat nodig is. Ik op de homepage ook een h1 gebruikt maar onzichtbaar gemaakt, zodat het voor een screenreader wel werkt maar niet afleid voor gebruikers die wel kunnen zien. Ik heb doormiddel van de juiste attributen de toegankelijkheid verbeterd. Ik heb gebruik gemaakt van section, article, headings, form, aside, a en ul's om het zo semantisch mogelijk te houden en heb alleen voor de vormgeving af en toe een div gebruikt, ik heb ook zo min mogelijk class gebruikt.
+  Aangezien Youtube al toegankelijk is heb ik niet perse verbeteringen aangebracht aan de toegankelijkheid, de code kon wel semantischer geschreven worden dus dat heb ik gedaan. Mijn HTML is semantisch en ik heb headings gebruikt waar dat nodig is. Ik op de homepage ook een h1 gebruikt maar onzichtbaar gemaakt, zodat het voor een screenreader wel werkt maar niet afleid voor gebruikers die wel kunnen zien. Ik heb doormiddel van de juiste attributen de toegankelijkheid verbeterd. Ik heb gebruik gemaakt van section, article, headings, form, aside, a en ul's om het zo semantisch mogelijk te houden en heb alleen voor de vormgeving af en toe een div gebruikt, ik heb ook zo min mogelijk class gebruikt.
 
 </details>
 
@@ -261,6 +261,8 @@ Toegankelijkheidstest pagina 1
   Korte omschrijving met plaatjes
 
 Ik vond het vooral lastig om de fouten in mijn eigen code te zien. Soms wou ik iets op een bepaalde manier vormgeven maar dan wist ik niet welke code ik daarvoor nodig had, bijvoorbeeld justify-content:space-around, inplaats van dat ik margin gebruik voor ruimte tussen elementen. Hierbij heeft feedback van de docent en studentenassistenen heel goed geholpen en heb door ook goed gebruik van gemaakt. Ik heb hier helaas geen foto''s van. Er is niet iets wat niet gelukt is.
+
+Wat jammer is, is dat ik me niet gerealiseerd heb dat ik een reflectie bij moest houden dus heb ik deze achteraf gemaakt. In mijn reflectie staat mijn proces goed beschreven, maar ik heb jammer genoeg geen screenshots van eerdere versies van mijn website dus die ontbreken. In de toekomst zal ik dit meenemen en er op letten, zodat ik ook screenshots van eerdere versies van mijn website heb.
 </details>
 
 
