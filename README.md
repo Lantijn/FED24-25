@@ -203,6 +203,11 @@ Toegankelijkheidstest pagina 1
 
     <img src="readme-images/Youtube_front_mobiel_def.png" width="375px" alt="Homepage mobiel formaat">
 
+
+  Hier kan je zien hoe alle sections onder elkaar schuiven als de pagina op mobiel formaat staat, d.m.v mediaquerry
+
+    <img src="readme-images/Youtube_video_mobiel_def.png" width="375px" alt="Videoplayer mobiel formaat">
+
 </details>
 
 
