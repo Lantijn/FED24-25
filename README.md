@@ -73,6 +73,7 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/hamburger_gif.gif" width="375px" alt="breakdown van een dynamisch deel">
+  Nav veranderd van display:none naar display:block
 
 </details>
 
