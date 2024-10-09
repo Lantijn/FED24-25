@@ -242,7 +242,11 @@ Toegankelijkheidstest pagina 1
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb goed geleerd om een website responsive te maken. Dit heb ik gedaan doormiddel van display:grid, display: flex en mediaquerry. Voor dit vak zou ik alles vormgeven met margin, paddings en width, maar dat werkt maar voor één beeldschermformaat. Ik vind het leuk om dit geleerd te hebben want ik had altijd heel veel moeite met een website responsive krijgen, daarom heb ik ook voor deze challenge gekozen.
+
+   <img src="readme-images/youtube_gif.gif" width="375px" alt="GIFje van responsive Youtube">
+   <img src="readme-images/Flex_ontleding.png" width="375px" alt="ontleding van hoe ik flexboxes gebruik">
+   
 
 
   ### Dit was lastig/Is niet gelukt:
