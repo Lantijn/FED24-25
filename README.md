@@ -198,7 +198,10 @@ Toegankelijkheidstest pagina 1
   - Geef de video width 100% met een mediaquerry 
   - Gebruik justify-content: space around om bepaalde elementen netjes te centreren en goed responsive te maken, zoals de nav en de header.
   - Met mediaquerry kan je veel dingen doen, ik heb bijvoorbeeld een mobiel formaat gemaakt door alle mobiele elementen op display: none te zetten en vanaf een bepaalde width zet ik ze op display block en dan zet ik de desktop elementen op display none
-  - 
+
+    Hier kan je zien hoe ik mediaquerries heb gebruikt om de website naar mobiel formaat aan te laten passen. Zo gaat bijvoorbeeld de nav onderaan in het midden staan, wordt het youtube logo kleiner en veranderderen de drie icoontjes rechtboven naar een uitklapmenutje.
+
+    <img src="readme-images/Youtube_front_mobiel_def.png" width="375px" alt="Homepage mobiel formaat">
 
 </details>
 
