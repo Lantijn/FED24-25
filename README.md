@@ -99,19 +99,11 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
   - Gebruik een aside en een form voor de header inplaats van een div
   - Maak veel meer gebruik van li voor dingen die eigenlijk in een lijst staan
 
-    
-
-    Hier kan je zien hoe ik gebruik heb gemaakt van een grid om de homepage te stijlen
+    Hier kan je zien hoe ik gebruik maak van containers en display:flex om mijn pagina te stijlen. Om dingen naast elkaar te zetten staat de flex-direction op row en om dingen onder elkaar te zetten gebruik flex-direction: column
 
     
-    <img src="readme-images/videomain_grid.png" width="375px" alt="foto van grid">
+<img src="readme-imagesFlex_ontleding.png" width="375px" alt="ontleding van hoe ik flexboxes gebruik">
 
-    
-
-    Dit is hoe de header eruit ziet en ik hier gebruik gemaakt van een aside, form en een ul
-
-    
-    <img src="readme-images/youtube_banner.png" width="675px" alt="foto van header">
 
 </details>
 
@@ -136,6 +128,19 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
   - Overflow-X gebruiken om categoriën horizontaal te laten scrollen
   - Ik moet mediaquery gebruiken voor mobiel formaat
   - Custom properties gebruiken voor de kleuren 
+
+
+    Hier kan je zien hoe ik gebruik heb gemaakt van een grid om de homepage te stijlen
+
+    
+    <img src="readme-images/videomain_grid.png" width="375px" alt="foto van grid">
+
+    
+
+    Dit is hoe de header eruit ziet en ik hier gebruik gemaakt van een aside, form en een ul
+
+    
+    <img src="readme-images/youtube_banner.png" width="675px" alt="foto van header">
 
 </details>
 
