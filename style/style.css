@@ -1,0 +1,668 @@
+:root {
+    --achtergrond: #0f0f0f;
+    --buttonhover: #303030;
+    --buttonhover2: #8b8b8b;
+    --lichtgrijs: lightgrey;
+    --formbackground: #222222;
+    --wit: white
+}
+
+body {
+    background-color: var(--achtergrond);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: var(--achtergrond);
+    margin-bottom: 1.5em;
+    padding-top: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+.videoheader {
+    padding-bottom: 1em;
+}
+
+header div button:hover {
+background-color: var(--buttonhover);
+}
+
+header div ul {
+    justify-self: end;
+
+}
+
+header div ul li button:hover {
+    background-color: var(--buttonhover);
+    }
+    
+
+header div:nth-of-type(1){
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+header img:nth-of-type(1) {
+    width: 7em;
+}
+
+aside button {
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: var(--achtergrond);
+    border: none;
+    border-radius: 50%;
+    margin-right: 1em;
+    margin-left: 1.5em;
+}
+
+aside button img{
+    margin: 0.4em;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+form button:nth-of-type(1) {
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: var(--formbackground);
+    border: solid 0.5px var(--buttonhover);
+    border-radius: 50%;
+    border-radius: 0 5em 5em 0 ;
+}
+
+form button:nth-of-type(2){
+    width: 2.5em;
+    height: 2.5em;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: var(--achtergrond);
+    border: none;
+    border-radius: 50%;
+    margin-right: 1em;
+    margin-left:.5em;
+}
+
+form button:nth-of-type(1) img{
+    margin: 0.6em;
+}
+
+form button:nth-of-type(2) img{
+    margin: 0.3em;
+}
+
+form input {
+    border-radius: 5em 0 0 5em;
+    padding: 1em;
+    background-color: var(--achtergrond);
+    border: solid 0.5px var(--buttonhover);
+    color: var(--wit);
+    flex-grow: 1;
+    height: 0.35em;
+}
+
+header ul:nth-of-type(1) {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+header div ul {
+    margin: 0;
+}
+
+header div ul:nth-of-type(1) button {
+    width: 1.8em;
+    height: 1.8em;
+    color: var(--wit);
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: var(--achtergrond);
+    border: none;
+    border-radius: 50%;
+    margin-right: 2em;
+    /* -moz-transition-timing-function: ; */
+}
+
+header ul:nth-of-type(1) button img{
+    margin: 0.4em;
+}
+
+header > ul li:nth-of-type(1) {
+opacity: 0; 
+}
+
+/* categorie buttons */
+header > ul{
+    overflow-x: auto;
+    padding-left: 0;
+    justify-content: flex-start;
+}
+
+header > ul::-webkit-scrollbar {
+    display: none;
+}
+
+header > ul button{
+    color: var(--wit);
+    background-color: var(--buttonhover);
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.7em;
+    margin-right: 0.7em;
+    font-weight: bold;
+}
+
+header > ul button:hover{
+    background-color: var(--buttonhover2);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    /* padding-right: 3em; */
+}
+
+nav ul li {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+nav ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1.7em;
+    color: var(--wit);
+    text-decoration: none;
+    margin-bottom: 1em;
+    
+}
+
+nav ul li a img {
+    margin-bottom: .5em;
+}
+
+
+/* MAIN */
+.homemain {
+    display: grid;
+    padding-top:8em ;
+    grid-template-columns:1fr 14fr;
+}
+
+.videomain section:nth-of-type(1){
+    /* overflow:hidden; */
+    justify-content: center;
+}
+
+.homemain h1 {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.homesection{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(18em, 1fr));
+    margin-left: 4em;
+    margin-right: 2em;
+    gap: 1em;
+}
+
+article a image {
+    border-radius: 50%;
+}
+
+article a{
+color: var(--lichtgrijs);
+text-decoration: none;
+}
+
+article p {
+    color: var(--lichtgrijs);
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+}
+
+.video img {
+    border-radius: 1em;
+    margin-bottom: 0.2em;
+}
+
+.video strong {
+    color: var(--wit);
+}
+
+video {
+    width: 60vw;
+    margin:0; 
+}
+
+h1 {
+    color: var(--wit);
+    margin-right:1em;
+    margin-top: 0;
+    margin-bottom: 0.6em;;
+    font-size: 1.5em;
+}
+
+.suggestie {
+    display: flex;
+    flex-direction: column;
+}
+
+.filmpjeflex {
+     display: flex;
+} 
+
+ .filmpjecolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.video .filmpjeflex a img{
+    width: 2em;
+    height: 2em;
+    border-radius: 60%;
+    margin-right: 1em;
+}
+
+.filmpjecolumn a:nth-of-type(2) {
+    margin-top: 0.5em;
+    color: var(--lichtgrijs);
+}
+
+.filmpjecolumn p {
+    margin-top: 0;
+    color: var(--lichtgrijs);
+}
+
+.videomain section:nth-of-type(1) {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.videomain section:nth-of-type(2) {
+    margin-right: 2vw;
+}
+
+.videomain section:nth-of-type(2) article:nth-of-type(1){
+    /* margin-left: 8vw; */
+    padding: 1em;
+    padding-left: 2.5vw;
+}
+
+.videomain section:nth-of-type(2) article:nth-of-type(2){
+    background-color: var(--buttonhover);
+    border-radius: 1em;
+    padding: 1em;
+    margin-left: 2vw;
+    color: var(--wit);
+    font-size: 0.8em;
+}
+.videomain section:nth-of-type(2) article:nth-of-type(1) img{
+width: 3em;
+}
+
+.lijntje {
+    background-color: var(--buttonhover);
+    height: 0.1em;
+    margin-bottom: 1em;
+    margin-left: 2vw;
+}
+
+
+h2 {
+    color: var(--wit);
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.knoppenflex {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    gap: 1em;
+    /* flex-wrap: wrap; */
+    /* margin-right: auto; */
+}
+
+.knoppenflex button {
+    height: 100%;
+    border: none;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.knoppenflex button img {
+    /* margin: 1em; */
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.knoppenflex #abonneerknop {
+    font-size: 0.9em;
+    border-radius: 5em;
+    font-weight: bold;
+    background-color: var(--wit);
+    padding: 1em;
+    width: max-content;
+    border: none;
+    transition: 0.3s;
+}
+
+.knoppenflex .likeknop {
+    /* margin-left: 5em; */
+    background-color: var(--buttonhover);
+    border-radius: 5em 0 0 5em;
+}
+
+.knoppenflex .dislikeknop {
+    background-color: var(--buttonhover);
+    border-radius: 0 5em 5em 0;
+}
+
+.knoppenflex .shareknop {
+    background-color: var(--buttonhover);
+    border-radius: 5em;
+}
+
+.knoppenflex .moreknop {
+    background-color: var(--buttonhover);
+    border-radius: 5em;
+} 
+
+.abonneerknop {
+    justify-self: end;
+}
+
+.aboneeflex {
+    display: flex;
+}
+
+.aboneeflex a {
+    width: 100%;
+    height: 100%;
+}
+
+.aboneecolumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.aboneecolumn p {
+    margin-top: 0.1em;
+    color: var(--buttonhover2);
+    width: max-content;
+}
+
+.videomain section:nth-of-type(2) article:nth-of-type(2) p:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.videomain {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(39.4em, 1fr));
+}
+
+
+.videomain section:nth-of-type(1) {
+    grid-column-start:1;
+    grid-column-end:-1;
+}
+
+.suggestie {
+    margin-top: 0.5em;
+    /* margin-left: 3em; */
+    font-size: 1.4em;
+}
+
+.suggestie h3 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+
+.suggestie a {
+    color: var(--wit);
+    font-size: 0.5em;
+    display: block;
+    font-weight: bold;
+}
+
+.suggestie img {
+    width: 14em;
+    border-radius: 0.4em;
+    margin-right: 1em;
+    margin-bottom: 0;
+}
+
+.suggestiecolumn a {
+    margin-bottom: 1.5em;
+}
+
+.suggestie p {
+    margin:0;
+    font-size: 0.5em;   
+    color: var(--buttonhover2);
+    font-weight: bold;
+}
+
+.suggestieflex {
+    display: flex;
+}
+
+.suggestiecolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestie a:nth-of-type(2){
+    margin-top: 0.5em;
+    color: var(--buttonhover2);
+}
+
+.groot_logo {
+    display: block;
+}
+
+.klein_logo {
+    display: none;
+    width: 2.5em;
+}
+
+.morehidden {
+    display: none;
+}
+
+.hamburgeruit {
+    background-color: var(--achtergrond);
+    width: 15%;
+    top:4.5em;
+    position: fixed;
+    z-index: 5;
+    display: none;
+    font-size: 0.8em;
+}
+
+.hamburgeruit.open {
+    display: block;
+}
+
+.hamburgeruit li a{
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.hamburgeruit a {
+    color: var(--wit);
+    text-decoration: none;
+    padding: 7%;
+    border-radius: 0.7em;
+    
+}
+
+.hamburgeruit a:hover {
+    background-color: var(--buttonhover2);
+}
+
+.hamburgeruit img {
+    margin-right: 5%;
+}
+
+.hamburgeruit ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5%;
+    
+}
+
+
+.hamburgeruit img {
+width: 15%;
+}
+
+
+/* Youtube tutorial over mediaquerries gekeken https://www.youtube.com/watch?v=yU7jJ3NbPdA&ab_channel=WebDevSimplified */
+
+@media (max-width:750px) {
+video {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    background-color: var(--achtergrond);
+}
+
+.groot_logo {
+    display: none;
+}
+
+.klein_logo {
+    display: block;
+    margin-left: 0.8em;
+}
+
+aside button {
+    display: none;
+}
+
+header div ul li {
+    display: none;
+}
+
+.morehidden {
+    display: block;
+    transform: rotate(90deg);
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    background-color: var(--achtergrond);
+    border: none;
+    border-radius: 50%;
+    margin-right: 1em;
+    
+}
+
+.homesection {
+    margin-left: 1em;
+}
+
+nav li:nth-of-type(3) {
+display: none;
+}
+
+header div > button {
+    justify-self: end;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    padding-top: 1em;
+}
+
+.videomain section:nth-of-type(1) {
+    text-align: left;
+}
+
+.hamburgeruit {
+    display: none;
+}
+
+}
+
+
+@media (max-width:1119px) {
+    .suggestie {
+        padding-left: 1em;
+    }
+}
+
+
+/* * {
+    border: solid red 1px;
+} */
+
+
+
+
+/* flex basis op input*/
+/* iconen svg + viewwidth */
+
+
