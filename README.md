@@ -102,11 +102,15 @@ Youtube is erg toegankelijk voor gebruikers met een handicap. Ik heb niet heel v
     
 
     Hier kan je zien hoe ik gebruik heb gemaakt van een grid om de homepage te stijlen
+
+    
     <img src="readme-images/videomain_grid.png" width="375px" alt="foto van grid">
 
     
 
     Dit is hoe de header eruit ziet en ik hier gebruik gemaakt van een aside, form en een ul
+
+    
     <img src="readme-images/youtube_banner.png" width="675px" alt="foto van header">
 
 </details>
